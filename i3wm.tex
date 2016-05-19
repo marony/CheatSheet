@@ -1,0 +1,65 @@
+\documentclass[a4j, landscape, twocolumn, dvipdfmx]{jsarticle}
+\AtBeginDvi{\special{landscape}}
+
+%#\usepackage{float}
+
+\begin{document}
+\section{iw3mショートカット}
+
+\$modは[WIN]に設定\footnotemark[1]
+
+\begin{table}[htb]
+  \begin{center}
+    \caption{基本}
+    \begin{tabular}{|l|l|} \hline
+      ショートカット & 機能 \\ \hline \hline
+      \$mod + [ENTER] & ターミナルを開く \\ \hline
+      \$mod + d & ラウンチャ \\ \hline
+      \$mod + [SHIFT] + q & ウインドウを閉じる(WM\_DELETE) \\ \hline
+      \$mod + [SHIFT] + c & i3の設定ファイルを読み直す \\ \hline
+      \$mod + [SHIFT] + r & i3を再起動する \\ \hline
+      \$mod + [SHIFT] + e & i3終了する \\ \hline \hline
+      \$mod + h & フォーカスを左へ\footnotemark[2] \\ \hline
+      \$mod + j & フォーカスを下へ\footnotemark[2] \\ \hline
+      \$mod + k & フォーカスを上へ\footnotemark[2] \\ \hline
+      \$mod + l & フォーカスを右へ\footnotemark[2] \\ \hline
+      \$mod + [SPACE] & フォーカスを切り替え \\ \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+\begin{table}[htb] 
+  \begin{center}
+    \caption{ウインドウ操作}
+    \begin{tabular}{|l|l|} \hline
+      ショートカット & 機能 \\ \hline \hline
+      \$mod + [SHIFT] + h & ウインドウを左へ\footnotemark[2] \\ \hline
+      \$mod + [SHIFT] + j & ウインドウを下へ\footnotemark[2] \\ \hline
+      \$mod + [SHIFT] + k & ウインドウを上へ\footnotemark[2] \\ \hline
+      \$mod + [SHIFT] + l & ウインドウを右へ\footnotemark[2] \\ \hline \hline
+      \$mod + f & フルスクリーン(トグル) \\ \hline
+      \$mod + v & 垂直にウインドウを分割 \\ \hline
+      \$mod + b & 水平にウインドウを分割 \\ \hline
+      \$mod + r & リサイズモード("hjkl"でサイズ変更)\footnotemark[2] \\ \hline \hline
+      \$mod + [SHIFT] + [SPACE] & フローティング(トグル) \\ \hline
+      \$mod + [MOUSE] & フローティングウインドウを移動 \\ \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+\begin{table}[htb]
+  \begin{center}
+    \caption{その他}
+    \begin{tabular}{|l|l|} \hline
+      ショートカット & 機能 \\ \hline \hline
+      \$mod + 0〜9 & ワークスペースの切替 \\ \hline
+      \$mod + [SHIFT] + 0〜9 & ウインドウを他のワークスペースへ \\ \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+\footnotetext[1]{"\verb|~|/.config/i3/config"でカスタマイズ}
+\footnotetext[2]{"jkl;"をviと同様"hjkl"にカスタマイズ}
+
+\end{document}
+
