@@ -9,6 +9,6 @@
 
 i3wm/i3.make TexファイルからPDFを作成するシェルスクリプトです。  
 i3wm/i3wm.tex チートシートのTeXのソースファイルです。  
-i3wm/i3wm.pdf チートシートのPDFファイルです。  
+[i3wm/i3wm.pdf](i3wm/i3wm.pdf) チートシートのPDFファイルです。  
 i3wm/config 使用しているi3の設定ファイルです。(~/.config/i3/config)  
 
